@@ -21,11 +21,25 @@ const Footer = () => {
           <h3>SOCIALS</h3>
 
           <section className="socials">
-            <BsGithub />
+            <a
+              href="https://github.com/Collid3"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <BsGithub />
+            </a>
 
-            <GrMail />
+            <a href="#contacts">
+              <GrMail />
+            </a>
 
-            <BsLinkedin />
+            <a
+              href="https://www.linkedin.com/in/thabang-masola-140985231/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <BsLinkedin />
+            </a>
           </section>
         </div>
       </div>
