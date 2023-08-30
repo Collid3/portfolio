@@ -37,7 +37,7 @@ const Projects = () => {
             </a>
 
             <a
-              href="https://musicpad.onrender.com/af8c6731-83c9-4a7c-81b9-adfd1d20ec5e"
+              href="https://musicpad.onrender.com/"
               target="_blank"
               rel="noreferrer"
             >
