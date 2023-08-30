@@ -38,6 +38,7 @@ footer .right h3 {
 
 .socials svg {
   cursor: pointer;
+  color: #66fcf1;
 }
 
 .socials svg:hover {
