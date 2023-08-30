@@ -1,0 +1,126 @@
+.projects-container {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  max-width: 120rem;
+  margin: 0 auto;
+  scroll-behavior: smooth;
+  scroll-margin-top: 2rem;
+}
+
+.projects-container h2 {
+  /* font-size: 3rem; */
+  margin-bottom: 10px;
+}
+
+.project {
+  display: grid;
+  grid-template-columns: 1.5fr 1fr;
+  gap: 20px;
+}
+
+.project-image {
+  width: 100%;
+  padding: 20px 50px;
+}
+
+.project img {
+  border-radius: 10px;
+  border: 2px solid #45a29e;
+}
+
+.project > section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 18px;
+  font-size: 1.8rem;
+  text-align: left;
+}
+
+.project > section h3 {
+  font-size: 2.8rem;
+}
+
+.project > section p {
+  line-height: 2.3rem;
+  letter-spacing: 0.7px;
+}
+
+.project > section .buttons {
+  display: flex;
+  gap: 10px;
+  margin-top: 5px;
+}
+
+.project > section .buttons a {
+  text-decoration: none;
+  outline: 1px solid #45a29e;
+  background-color: transparent;
+  color: #c5c6c7;
+  padding: 8px 20px;
+  display: flex;
+  gap: 6px;
+}
+
+.project > section .buttons a svg {
+  display: flex;
+  align-items: center;
+}
+
+.project > section .buttons a .play-button {
+  font-size: 1.3rem;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.project > section .buttons a:hover {
+  background-color: #45a29e;
+  color: #1f2833;
+}
+
+@media screen and (min-width: 1200px) {
+  .projects-container {
+    gap: 15px;
+  }
+
+  .project img {
+    width: 100%;
+    margin: auto;
+    object-fit: cover;
+  }
+
+  .project {
+    grid-template-columns: 1.3fr 1fr;
+    /* grid-template-rows: repeat(auto-fill, 400px); */
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .project {
+    grid-template-columns: auto;
+    justify-content: start;
+    padding: 2rem;
+  }
+
+  .project-image {
+    padding: 0;
+    width: 80%;
+  }
+
+  .project > section {
+    font-size: 1.6rem;
+    max-width: 55rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .project > section h3 {
+    font-size: 2.5rem;
+  }
+
+  /* .projects-container h2 {
+    font-size: 2.8rem;
+  } */
+}
