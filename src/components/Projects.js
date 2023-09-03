@@ -139,9 +139,9 @@ const Projects = () => {
           <h3>E-commerce App</h3>
 
           <p>
-            Seroba store is an E-commerce application inspired by movies app. I
-            developed it to sharpen my skills in being creative and make
-            something out of nothing.
+            An E-commerce application inspired by the app i made above this one
+            called movies app. I developed it to sharpen my skills in being
+            creative and make something out of nothing.
           </p>
 
           <div className="buttons">

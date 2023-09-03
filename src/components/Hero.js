@@ -11,11 +11,13 @@ const Hero = () => {
 
       <h1>Jerry Masola</h1>
 
+      <h4>Full stack developer with 5 years experience</h4>
+
       <p>
-        Hardworking and passionate Self-driven developer dedicated to developing
-        user-friendly and feature-rich websites with strong organization.
-        Proficient in developing servers, user interfaces, testing and
-        debugging. Dependable developer successful at managing multiple
+        I am a Hardworking and passionate Self-driven developer dedicated to
+        developing user-friendly and feature-rich websites with strong
+        organization. Proficient in developing servers, user interfaces, testing
+        and debugging. Dependable developer successful at managing multiple
         priorities with a positive attitude. Willingness to take on added
         responsibilities to meet team goals.
       </p>
