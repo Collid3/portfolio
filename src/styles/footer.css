@@ -58,6 +58,7 @@ footer > p a {
 @media screen and (max-width: 768px) {
   footer {
     padding: 1rem;
+    font-size: 1.6rem;
   }
 
   .footer-container {
@@ -70,5 +71,21 @@ footer > p a {
 
   footer > p {
     padding-top: 1.5rem;
+    font-size: 1.4rem;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .footer-container {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  footer .left {
+    width: 100%;
+  }
+
+  footer .right h3 {
+    text-align: left;
   }
 }
