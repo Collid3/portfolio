@@ -8,6 +8,50 @@ const Projects = () => {
     <section className="projects-container" id="projects">
       <h2>PROJECTS</h2>
 
+      {/* cakelicious */}
+      <div className="project">
+        <div className="project-image">
+          <img src={require("../images/projects/cakelicious.png")} alt="" />
+        </div>
+
+        <section>
+          <h3>Cakelicious</h3>
+
+          <p>
+            An application I built for my sisters cake company. I saw an
+            opportunity to get out of tutorial hell and make use of my skills
+            while being creative and hard thinking and I took it. It is not
+            finished yet, but i hope you get the idea of where I am going with
+            it
+          </p>
+
+          <div className="buttons">
+            <a
+              href="https://github.com/Collid3/cakelicious-client"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Source Code{" "}
+              <span>
+                <AiFillGithub />
+              </span>
+            </a>
+
+            <a
+              href="https://cakelicious.onrender.com"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Run App{" "}
+              <span className="play-button">
+                <FaPlay />
+              </span>
+            </a>
+          </div>
+        </section>
+      </div>
+
+      {/* musicpad */}
       <div className="project">
         <div className="project-image">
           <img src={require("../images/projects/musicpad.png")} alt="" />
@@ -50,6 +94,7 @@ const Projects = () => {
         </section>
       </div>
 
+      {/* movies */}
       <div className="project">
         <div className="project-image">
           <img src={require("../images/projects/movies2.png")} alt="" />
@@ -90,9 +135,10 @@ const Projects = () => {
         </section>
       </div>
 
+      {/* chat */}
       <div className="project">
         <div className="project-image">
-          <img src={require("../images/projects/chat.png")} alt="" />
+          <img src={require("../images/projects/chat2.png")} alt="" />
         </div>
 
         <section>
@@ -130,6 +176,7 @@ const Projects = () => {
         </section>
       </div>
 
+      {/* e-store */}
       <div className="project">
         <div className="project-image">
           <img src={require("../images/projects/e-commerce.png")} alt="" />
